@@ -1,10 +1,8 @@
 import React from 'react';
 import './style.css';
-import {useState} from 'react';
-
+import { useState } from 'react';
 
 function App() {
-  const[Calculator,setCalc] = useState(**)
   const createDigits = () => {
     const digits = [];
     for (let i = 1; i < 10; i++) {
